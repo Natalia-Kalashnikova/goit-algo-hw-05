@@ -27,13 +27,9 @@ def main():
     while True:  
         user_input = input(">>> ").strip()  
         if not user_input:  
-            continue  
+            continue
 
-        try:  
-            command, args = parse_input(user_input)  
-        except ValueError  as e:  
-            print(f"Value Error: {e}")  
-            continue  
+        command, args = parse_input(user_input) 
 
         # Process commands  
         if command in ["exit", "close"]:  
