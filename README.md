@@ -22,6 +22,16 @@ This implementation uses memoization to optimize recursive computation, greatly 
 
 ---
 
+## Task 02 – Sum Valid Floats from Text
+
+**Function:** `generator_numbers(), sum_profit()`
+
+Implement `generator_numbers()` to extract valid float numbers from a string using regex. Floats must be clearly surrounded by spaces. Use `yield` to return numbers as a generator.
+
+Implement `sum_profit()` to calculate the total sum of floats from the generator.
+
+---
+
 ## Task 04 – CLI Contact Assistant Bot
 
 **Function:** `main(), parse_input(), add_contact(), change_contact(), show_phone(), show_all_contacts()`
