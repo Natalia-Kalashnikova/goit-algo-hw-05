@@ -32,6 +32,28 @@ Implement `sum_profit()` to calculate the total sum of floats from the generator
 
 ---
 
+## Task 03 – Log File Analyzer with Level Filtering
+
+**Functions:** `parse_log_line(line: str) -> dict, load_logs(file_path: str) -> list,
+filter_logs_by_level(logs: list, level: str) -> list, count_logs_by_level(logs: list) -> dict,
+display_log_counts(counts: dict)`
+
+Create a Python script that reads a log file passed as a command-line argument and analyzes it by log levels (INFO, ERROR, DEBUG, WARNING).
+
+- Implement `parse_log_line(line: str) -> dict` to parse a single log line into a dictionary with keys: date, time, level, and message.
+
+- Implement `load_logs(file_path: str) -> list` to load and parse all log lines from a given file.
+
+- Implement `filter_logs_by_level(logs: list, level: str) -> list` to filter logs by a specified log level.
+
+- Implement `count_logs_by_level(logs: list) -> dict` to count the number of log entries per log level.
+
+- Implement `display_log_counts(counts: dict)` to display counts in a formatted table.
+
+The script also supports an optional second argument for filtering logs by level and handles errors such as missing files or invalid formats gracefully.
+
+---
+
 ## Task 04 – CLI Contact Assistant Bot
 
 **Function:** `main(), parse_input(), add_contact(), change_contact(), show_phone(), show_all_contacts()`
